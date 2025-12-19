@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "E-Hospitality – Hospital Management System",
+    "description": "End-to-end hospital management platform supporting patient registration, appointments, billing, and medical record tracking. Includes automated invoice generation and integrated Stripe payments.",
+    "category": "fullstack",
+    "technologies": ["Django 5", "PostgreSQL", "Stripe", "REST APIs"],
+    "githubUrl": "https://github.com/sreejith-as/e-hospitality"
+  },
+  {
+    "id": 2,
+    "title": "Career Tracker – Job Application Manager",
+    "description": "Job application tracking platform with resume versioning, dashboard analytics, and real-time status updates. Built for seamless cross-device performance.",
+    "category": "fullstack",
+    "technologies": ["React", "Vite", "TailwindCSS", "React Context API", "ESLint"],
+    "githubUrl": "https://github.com/sreejith-as/career-tracker"
+  },
+  {
+    "id": 3,
+    "title": "Ciphernet – Social Platform",
+    "description": "Full-featured social networking platform with secure authentication, email verification, messaging, and interactive user features.",
+    "category": "fullstack",
+    "technologies": ["Django", "PostgreSQL", "WebSockets", "JWT Authentication"],
+    "githubUrl": "https://github.com/sreejith-as/ciphernet"
+  },
+  {
+    "id": 4,
+    "title": "Tourist Destinations",
+    "description": "A Django web application for managing tourist destinations, allowing users to create, read, update, and delete destination information along with associated images. It includes a REST API for programmatic access and uses PostgreSQL as the database backend.",
+    "category": "fullstack",
+    "technologies": ["Python","Django","PostgreSQL","Django REST Framework","REST APIs"],
+    "githubUrl": "https://github.com/sreejith-as/tourist_destinstions"
+  },
+  {
+    "id": 5,
+    "title": "Blog Project",
+    "description": "A comprehensive Django-based blogging platform featuring user authentication, profile management, blog posts with image uploads, commenting system, search functionality, and a custom admin panel for staff users.",
+    "category": "fullstack",
+    "technologies": ["Python","Django","SQLite","Django REST Framework","Authentication"],
+    "githubUrl": "https://github.com/sreejith-as/blog_project"
+  },
+  {
+    "id": 6,
+    "title": "Quizzler",
+    "description": "Interactive quiz application demonstrating modern JavaScript practices, responsive UI, and clean component-driven architecture.",
+    "category": "backend",
+    "technologies": ["Python", "Tkinter", "OOPs", "Game Development"],
+    "githubUrl": "https://github.com/sreejith-as/quizzler"
+  },
+  {
+    "id": 7,
+    "title": "Turtle Crossing Game",
+    "description": "Python-based arcade-style game demonstrating object-oriented programming, event handling, and clean game loop architecture.",
+    "category": "backend",
+    "technologies": ["Python", "Tkinter", "OOPs", "Game Development"],
+    "githubUrl": "https://github.com/sreejith-as/turtle_crossing_game"
+  },
+  {
+    "id": 8,
+    "title": "Flashcard App",
+    "description": "Interactive flashcard application for learning and review, featuring dynamic UI updates and user-friendly navigation.",
+    "category": "backend",
+    "technologies": ["Python", "Tkinter", "OOPs", "Game Development"],
+    "githubUrl": "https://github.com/sreejith-as/flashcard-app"
+  }
+
+]
+

@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+    --offset-x: 8px;
+    --offset-y: 8px;
+}
+
+.card-offset {
+    position: relative;
+    background-color: #DFD0B8;
+    border-radius: 16px;
+    box-shadow: var(--offset-x) var(--offset-y) 0 #948979;
+}
+
+.ui-btn {
+    background-color: white;
+    color: #222831;
+    border-radius: 50px;
+    padding: 12px 24px;
+    font-weight: bold;
+    position: relative;
+    box-shadow: var(--offset-x) var(--offset-y) 0 #948979;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.ui-btn:hover,
+.ui-btn:focus {
+    background-color: #DFD0B8;
+    transform: translateY(-4px) scale(1.05);
+}
+
+.ui-btn.glitch {
+    animation: glitch 0.5s infinite;
+}
+
+.ui-btn--pulse {
+    animation: pulse 2s infinite;
+}
+
+.ui-btn--ghost {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    box-shadow: none;
+}
+
+.ui-btn--ghost:hover,
+.ui-btn--ghost:focus {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-4px);
+}
+
+@keyframes glitch {
+    0% {
+        transform: translate(0);
+    }
+
+    20% {
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        transform: translate(2px, 2px);
+    }
+
+    80% {
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.highlight::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #948979;
+    border-radius: 0 16px 0 20px;
+}
+

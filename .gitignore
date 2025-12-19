@@ -1,0 +1,58 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Development
+.turbo/
+.cache/
+
+# Testing (if you add tests)
+coverage/
+.nyc_output/
+
+# Optional npm cache
+.npm
+
+# Misc
+.eslintcache
+.parcel-cache
+dist-ssr/*.js

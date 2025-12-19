@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Python Full Stack Intern",
+    "issuer": "Inmakes Infotech",
+    "date": "2025",
+    "description": "Demonstrated proficiency in developing and maintaining applications on AWS platform.",
+    "certificateFile": "/assets/certificates/Inmakes-Internship-Certificate.pdf"
+  },
+  {
+    "id": 2,
+    "title": "Junior Software Programmer",
+    "issuer": "Soften Technologies",
+    "date": "2024",
+    "description": "Certified in MongoDB database design, development, and administration.",
+    "certificateFile": "/assets/certificates/soften experience certificate.pdf"
+  },
+  {
+    "id": 3,
+    "title": "Python Programming Certificate",
+    "issuer": "Soften Technologies",
+    "date": "2023",
+    "description": "Certified in Python programming fundamentals, including data structures, algorithms, and best practices.",
+    "certificateFile": "/assets/certificates/Python Programming Certificate.pdf"
+  },
+  {
+    "id": 4,
+    "title": "Data Analytics Assessment",
+    "issuer": "LearnTube",
+    "date": "2024",
+    "description": "Comprehensive training in Node.js backend development and API design.",
+    "certificateFile": "/assets/certificates/Data Analytics_Certificate.pdf"
+  },
+  {
+    "id": 5,
+    "title": "Python Programming Essentials Bootcamp",
+    "issuer": "LetsUpgrade",
+    "date": "2023",
+    "description": "Intensive bootcamp covering Python programming essentials, from basics to advanced concepts and practical applications.",
+    "certificateFile": "/assets/certificates/LUEPYTJUL123687.pdf"
+  },
+  {
+    "id": 6,
+    "title": "Web Design",
+    "issuer": "Ewolwe",
+    "date": "2022",
+    "description": "Internship program focused on web design principles, UI/UX design, and front-end development techniques.",
+    "certificateFile": "/assets/certificates/web design internship certificate.pdf"
+  }
+]
