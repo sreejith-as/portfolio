@@ -15,7 +15,7 @@ const ExperienceTimeline = () => {
     },
     {
       title: 'Freelance Full-Stack Developer',
-      company: 'Self-Employed',
+      company: 'Codgray',
       period: 'Aug 2024 – Present',
       description: [
         'Delivered custom web solutions for small businesses and startups',
